@@ -50,11 +50,11 @@ const range = {
   handleInput: function (event) {
     // console.log("range.handleInput()");
 
+    // We get the value of the DOM element form which the event occured and we use the parseFloat() function to convert the string value to a point number.
+    range.value = parseInt(event.currentTarget.value);
+
     // We set the percentage for the input.
     let percentage = (100 * range.value) / 8000;
-
-    // We get the DOM element form which the event occured.
-    range.value = parseInt(event.target.value);
 
     // We change the style of the input background according to his value in percentage.
     range.input.style.background = `linear-gradient(90deg, rgba(117,20,241,1) 0%, rgba(175,26,170,1) ${percentage}%, rgba(223,61,90,1) ${percentage}%, rgba(62,48,56,1) ${percentage}%)`;
