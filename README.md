@@ -1,6 +1,6 @@
 # **Bank Card** 
 
-The **Bank Card** project is a potential design of a banking application where you can manage your credit card limits.
+The **Bank Card** project is a design of a banking application where you can manage the bank card payments limits of your bank card.
 
 ## **Setup**
 
